@@ -1,0 +1,17 @@
+{
+    "name": "sensorario/wp-block-hello-world",
+    "description": "Un blocco Gutenberg personalizzato",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Sensorario\\WpBlockHelloWorld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simone Gentili",
+            "email": "sensorario@gmail.com"
+        }
+    ],
+    "require": {}
+}
