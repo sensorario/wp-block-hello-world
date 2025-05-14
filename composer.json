@@ -1,6 +1,6 @@
 {
     "name": "sensorario/wp-block-hello-world",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Un blocco Gut personalizzato",
     "type": "wordpress-plugin",
     "autoload": {
