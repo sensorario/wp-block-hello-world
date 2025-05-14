@@ -2,7 +2,7 @@ import { __ } from '@wordpress/i18n';
 import { useBlockProps } from '@wordpress/block-editor';
 import { useState } from '@wordpress/element';
 import './editor.scss';
-import { Button } from '@wordpress/components';
+import { Button, ButtonGroup } from '@wordpress/components';
 
 // https://chatgpt.com/c/68230cd3-5eb8-8011-ad8c-a2f1b4370897
 
@@ -20,7 +20,7 @@ export default function Edit({ attributes, setAttributes }) {
 	return (
 		<div {...blockProps}>
 			<p>{__('Hai cliccato er bottone', 'wp-block-hello-world')} {count} volte.</p>
-			<Button onClick={() => {
+			<Button variant="primary" onClick={() => {
 				const newValue = count + 1
 				setCount(newValue);
 				setAttributes({
@@ -31,7 +31,7 @@ export default function Edit({ attributes, setAttributes }) {
 			}>
 				{__('Cliccami', 'wp-block-hello-world')}
 			</Button>
-			<p>{__('Clicca il bottone per aumentare il contatore.', 'wp-block-hello-world')}</p>
+			<p>{__('Clicca il bottone per incrementare il contatore.', 'wp-block-hello-world')}</p>
 		</div>
 	);
 }
