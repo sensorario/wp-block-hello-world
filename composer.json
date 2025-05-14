@@ -1,5 +1,6 @@
 {
     "name": "sensorario/wp-block-hello-world",
+    "version": "0.1",
     "description": "Un blocco Gutenberg personalizzato",
     "type": "wordpress-plugin",
     "autoload": {
