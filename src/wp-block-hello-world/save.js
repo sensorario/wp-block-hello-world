@@ -18,7 +18,7 @@ import { useBlockProps } from '@wordpress/block-editor';
 export default function save(props) {
 	return (
 		<p {...useBlockProps.save()}>
-			{'Wp Block Hello World – hello from the saved 1234 !!!!!! ' + props.attributes.content + ' ' + props.attributes.counter}
+			{'Wp Block Hello World – 1234 from the saved 1234 !!!!!! ' + props.attributes.content + ' ' + props.attributes.counter}
 		</p>
 	);
 }
