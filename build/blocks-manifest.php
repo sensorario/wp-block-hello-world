@@ -5,14 +5,12 @@ return array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
 		'name' => 'create-block/wp-block-hello-world',
-		'version' => '0.1.0',
+		'version' => '0.1.6',
 		'title' => 'Il blocco di Simone',
 		'category' => 'widgets',
 		'icon' => 'smiley',
 		'description' => 'Example block scaffolded with Create Block tool.',
-		'example' => array(
-			
-		),
+		'example' => array(),
 		'supports' => array(
 			'html' => false,
 			'typography' => array(

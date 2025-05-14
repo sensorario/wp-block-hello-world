@@ -31,7 +31,7 @@ export default function Edit({ attributes, setAttributes }) {
 			}>
 				{__('Cliccami', 'wp-block-hello-world')}
 			</Button>
-			<p>{__('Clicca il bottone per incrementare il contatore.', 'wp-block-hello-world')}</p>
+			<p>{__('Clicca il bottone per incrementare di uno il contatore.', 'wp-block-hello-world')}</p>
 		</div>
 	);
 }
